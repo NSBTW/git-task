@@ -6,7 +6,6 @@ namespace Kontur.Courses.Git
 	public class Calculator
 	{
 		private Maybe<double> lastResult = 0;
-
 		private Maybe<double> TryParseDouble(string s)
 		{
 			double v;
@@ -14,6 +13,7 @@ namespace Kontur.Courses.Git
 				return v;
 			return Maybe<double>.FromError("Not a number '{0}'", s);
 		}
+		
 
 		public Maybe<double> Calculate(string[] args)
 		{

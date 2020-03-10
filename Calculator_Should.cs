@@ -74,6 +74,8 @@ namespace Kontur.Courses.Git
 			Assert.AreEqual(5.0, calc.Calculate(new string[] { }).Value);
 		}
 
+
+
 		[Test]
 		public void OneArg_BadInput()
 		{
