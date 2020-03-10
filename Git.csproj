@@ -52,6 +52,7 @@
     <Compile Include="Calculator_Should.cs" />
     <Compile Include="Maybe.cs" />
     <Compile Include="Program.cs" />
+    <Compile Include="vdgh.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
